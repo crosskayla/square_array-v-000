@@ -3,4 +3,4 @@ def square_array(array)
 end
 
 test_array=[1,2,3]
-square_array(test_array)
+print square_array(test_array)
