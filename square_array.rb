@@ -1,9 +1,5 @@
 def square_array(array)
-  new_array = Array.new
-  array.each do |number|
-    new_array << number**2
-  end
-  return new_array
+  array.collect! {|number| number**2}
 end
 
 test_array=[1,2,3]
